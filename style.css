@@ -1,0 +1,182 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI', sans-serif;
+}
+
+body{
+    background:#ac9da3;
+    color:#b48c8c;
+}
+
+
+header{
+    background:linear-gradient(to right,#860c0c,#2e0416);
+    padding:25px;
+    text-align:center;
+    color:rgb(8, 8, 8);
+}
+
+header h1{
+    font-size:36px;
+    color:  rgb(8, 8, 8);
+    
+}
+
+h1{
+    color: #2e0416;
+    
+}
+
+header p{
+    margin-top:5px;
+    
+}
+
+
+nav{
+    background:rgb(172, 157, 157);
+    padding:15px;
+    text-align:center;
+    box-shadow:0 4px 8px rgba(73, 68, 68, 0.1);
+}
+
+nav a{
+    margin:0 12px;
+    text-decoration:none;
+    color: #2e0416;
+    
+    font-weight:bold;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#a51c1c;
+}
+
+
+.hero{
+    padding:60px 20px;
+    text-align:center;
+    color: #2e0416;
+    
+    background:#695555;
+}
+
+
+.grid{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:25px;
+    padding:30px;
+}
+
+.grid img{
+    width:280px;
+    height:200px;
+    object-fit:cover;
+    border-radius:20px;
+    box-shadow:0 6px 12px rgba(0,0,0,0.2);
+}
+
+.adoption-box{
+    margin:30px;
+    background:#695555;
+    padding:30px;
+    border-radius:20px;
+    text-align:center;
+    color: #2e0416;
+}
+
+.adoption-grid{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    gap:30px;
+    padding:30px;
+}
+
+.card{
+    background:rgb(155, 122, 122);
+    width:260px;
+    border-radius:20px;
+    box-shadow:0 6px 12px rgba(0,0,0,0.2);
+    overflow:hidden;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card img{
+    width:100%;
+    height:200px;
+    object-fit:cover;
+}
+
+.card h3{
+    margin:10px 0;
+    color: #410f0f;
+}
+
+.card p{
+    padding:0 10px 10px;
+    font-size:14px;
+     color: #410f0f;
+}
+
+.card button{
+    background:#a51c1c;
+    color:rgb(175, 135, 135);
+    border:none;
+    padding:8px 15px;
+    border-radius:10px;
+    margin-bottom:15px;
+    cursor:pointer;
+}
+
+
+form{
+    background:#695555;
+    
+    width:350px;
+    margin:30px auto;
+    padding:20px;
+    border-radius:20px;
+    box-shadow:0 5px 10px rgba(0,0,0,0.2);
+}
+
+form input, textarea{
+    width:100%;
+    padding:10px;
+    margin:8px 0;
+    border:1px solid #4b3939;
+    border-radius:10px;
+}
+
+form button{
+    width:100%;
+    background:#a51c1c;
+    color:rgb(241, 235, 235);
+    border:none;
+    padding:10px;
+    border-radius:10px;
+}
+.adopt-btn{
+    display:inline-block;
+    background:#b11b1b;
+    color:rgb(243, 223, 223);
+    padding:8px 15px;
+    border-radius:10px;
+    text-decoration:none;
+    margin-bottom:15px;
+}
+
+.adopt-btn:hover{
+    background:#991717;
+}
+
+
